@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ecommerce/static/css/main.e5e563f7.css",
-    "main.js": "/react-ecommerce/static/js/main.94314ecd.js",
+    "main.js": "/react-ecommerce/static/js/main.1ca402b6.js",
     "static/js/787.ea1b60de.chunk.js": "/react-ecommerce/static/js/787.ea1b60de.chunk.js",
     "static/media/background1.png": "/react-ecommerce/static/media/background1.8e458445fc0ee420f058.png",
     "static/media/vanillastickkey.png": "/react-ecommerce/static/media/vanillastickkey.22a54ac83a6a5ca47501.png",
@@ -27,11 +27,11 @@
     "static/media/vanillakey.png": "/react-ecommerce/static/media/vanillakey.c84654380b015c2dbc3e.png",
     "index.html": "/react-ecommerce/index.html",
     "main.e5e563f7.css.map": "/react-ecommerce/static/css/main.e5e563f7.css.map",
-    "main.94314ecd.js.map": "/react-ecommerce/static/js/main.94314ecd.js.map",
+    "main.1ca402b6.js.map": "/react-ecommerce/static/js/main.1ca402b6.js.map",
     "787.ea1b60de.chunk.js.map": "/react-ecommerce/static/js/787.ea1b60de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5e563f7.css",
-    "static/js/main.94314ecd.js"
+    "static/js/main.1ca402b6.js"
   ]
 }
