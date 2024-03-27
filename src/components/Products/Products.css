@@ -1,0 +1,218 @@
+*{
+    font-family: Montserrat;
+
+}
+.productsSection{
+    padding-top: 12vh;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productsSection hr{
+    width: 95% !important;
+}
+.productsHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.productsHeader h2{
+    font-size: 40px;
+    padding-left: 8vh;
+    font-weight: 700;
+}
+.productsHeader input{
+    height: 6vh;
+    border: none;
+    width: 50%;
+    padding-left: 3vh;
+    border-radius: 5px;
+}
+.productsHeader div{
+    font-size: 20px;
+    padding: 1vh 9vh 1vh 1vh;
+}
+.productsHeader div .icon{
+padding-right: 2vh;
+cursor: pointer;
+transition: .3s;
+}
+.productsHeader div .icon:hover{
+    color: #549608;
+    scale: 1.01;
+}
+.productsMain{
+    width: 90%;
+    display: flex;
+    padding-top: 5vh;
+
+}
+.productCatigories{
+    width: 30%;
+}
+.productCatigories h2{
+    font-size: 30px;
+    padding-bottom: 3vh;
+}
+.productCatigories div p{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 2vh;
+    cursor: pointer;
+    transition: .2s;
+}
+.productCatigories div p:hover{
+    color: #2d5104;
+    scale: 1.01;
+}
+.cart-popup{
+    background-color: #fff;
+    width: 95%;
+    margin: 2vh 0 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    min-height: 20vh;
+}
+.cart-popup p:first-of-type {
+    position: absolute;
+    top: 1vh;
+    right: 2vh;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+.cart-popup p:first-of-type:hover {
+    color: red;
+}
+.cart-popup h2{
+    padding: 4vh 0;
+}
+.cartContainer{
+    margin-bottom: 4vh;
+    width: 95%;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.cartContainer button{
+    align-self: flex-end;
+    padding: 1vh;
+    border:1px solid #549608;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 12vh;
+    border-radius: 4px;
+    background-color: rgb(206, 206, 206);
+}
+.cartItemData{
+    display: flex;
+    align-items: center;
+    padding-left: 1vh;
+    max-width: 85%;
+}
+.cartItemData img{
+    height:10vh;
+    padding-right: 2vh;
+}
+.cartButtons{
+    padding-right: 2vh;
+}
+.cartButtons button{
+    padding: 1vh;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 19px;
+    border-radius: 2px;
+}
+.cartButtons span{
+    padding: 0 2vh;
+    font-size: 17px;
+    font-weight: 700;
+}
+.selected{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 4vh;
+}
+.selectedData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0 5%;
+    text-align: center;
+    gap: 4vh;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+.buttons button{
+    padding: 2vh 4vh;
+    border: none;
+    transition: .5s;
+    margin: .5vh;
+}
+.buttons button:hover{
+    border: 1px solid #2d5104;  
+    padding: 2vh 5vh;
+}
+.selected img{
+    height: 50vh !important;
+    max-width: 50vh;
+}
+.productdata{
+  width: 70%;
+}
+.products{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    /* width: 90% !important; */
+}
+.products div{
+    background-color: #fff;
+    margin: 1vh;
+    width: 23%;
+    height: 63vh;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+.products div img{
+    height: 30vh;
+    margin-top: 6vh;
+    width: 90%;
+    margin: 7% 0;
+}
+.products div h3{
+    padding: 1vh 0!important;
+}
+.products div h4{
+    color: #2d5104;
+    padding: 1vh 0;
+    text-decoration: underline;
+}
