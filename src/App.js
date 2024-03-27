@@ -12,10 +12,10 @@ function App() {
   
   return (
     <Routes>
-    <Route path="/"  Component={Home}/>
+    <Route path="react-ecommerce"  Component={Home}/>
     <Route element={<PersistLogin/>}>
     <Route element={<RequireAuth/>}>
-    <Route path="Products" Component={Products}/>
+    <Route path="react-ecommerce/Products" Component={Products}/>
     </Route>
     </Route>
     <Route path='user' Component={Login}/>

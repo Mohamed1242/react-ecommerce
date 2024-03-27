@@ -24,16 +24,16 @@ const Nav =()=>{
     return (
       <header>
         <nav className="navbar">
-        <NavLink className="navlink" to="/" >HOME</NavLink>
-        <NavLink className="navlink" to="Products">PRODUCTS</NavLink>
+        <NavLink className="navlink" to="/react-ecommerce" >HOME</NavLink>
+        <NavLink className="navlink" to="/react-ecommerce/Products">PRODUCTS</NavLink>
         <Link className="navlink" to="contactus" smooth={true} >CONTACT US</Link>
           
            {token?
-            <NavLink to="/">
+            <NavLink to="react-ecommerce">
             <FontAwesomeIcon onClick={handleLogOut} className="icon" icon="fa-solid fa-arrow-right-from-bracket" />
             </NavLink>
            :
-          <NavLink to="user">
+          <NavLink to="/user">
            <FontAwesomeIcon className="icon" icon="user" />
             </NavLink>
           }
